@@ -1,0 +1,53 @@
+.header {
+    background-color: #24a2b8; 
+    padding: 15px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+.table a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.table a:hover {
+    text-decoration: underline;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f1f1f1; 
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
