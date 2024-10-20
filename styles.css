@@ -64,3 +64,10 @@
     height: 200px;
     object-fit: cover;
 }
+
+.series-description-container {
+    max-height: 90px; 
+    overflow-y: auto; 
+    padding: 10px; 
+    
+}
